@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '0.10'
+before_install:
+- npm install coffee-script
+before_script:
+- ./node_modules/.bin/cake archive
+script:
+- ./node_modules/.bin/cake test
+deploy:
+  provider: releases
+  api_key:
+    secure: lcFvmM1NtRByK8cKfIfIJ8k+D2uR8UQSoqHouQPuDEkntgO3dTymGeiesXsd38/z/LaXSS+IBFSLmy7F7fSeG/vVXWzcwwbkzyYoI4EHlliR0+RefpPXvCjKiPaZpY8hQlwv6nTVQ1YR42e/E0EatXHI7/BpF5pRAeh6bVKSQwY=
+  file: build/RegexDynamicValue.zip
+  skip_cleanup: true
+  on:
+    tags: true
+    all_branches: true
+    repo: LuckyMarmot/Paw-RegexDynamicValue
