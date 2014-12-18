@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/LuckyMarmot/Paw-RegexDynamicValue.svg?branch=master)](https://travis-ci.org/LuckyMarmot/Paw-RegexDynamicValue)
+[![Build Status](https://travis-ci.org/luckymarmot/Paw-RegexDynamicValue.svg?branch=master)](https://travis-ci.org/luckymarmot/Paw-RegexDynamicValue)
 
 #Regex Dynamic Value (Paw Extension)
 
@@ -12,4 +12,4 @@ Copyright © 2014 Paw Inc.
 
 ##Contributors
 
-See [Contributors](https://github.com/LuckyMarmot/Paw-RegexDynamicValue/graphs/contributors).
+See [Contributors](https://github.com/luckymarmot/Paw-RegexDynamicValue/graphs/contributors).
