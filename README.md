@@ -2,7 +2,29 @@
 
 #Regex Dynamic Value (Paw Extension)
 
-A Paw Extension to match and replace a pattern in an input string. It uses the JavaScript [replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) method, so the regular expression syntax must follow the JavaScript syntax (see the [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) object).
+A [Paw Extension](http://luckymarmot.com/paw/extensions/) to match and replace a pattern in an input string. It uses the JavaScript [replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) method, so the regular expression syntax must follow the JavaScript syntax (see [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) object).
+
+## Installation
+
+Easily install this Paw Extension: [Install Regex Dynamic Value](http://luckymarmot.com/paw/extensions/RegexDynamicValue)
+
+## Development
+
+### Build & Install
+
+```shell
+npm install
+cake build
+cake install
+```
+
+### Watch
+
+During development, watch for changes:
+
+```shell
+cake watch
+```
 
 ##License
 
